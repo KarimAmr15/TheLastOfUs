@@ -2,35 +2,70 @@
 
 **Introduction**
 
-The Last of Us: Legacy is a single-player survival game set in a zombie apocalyptic world. The game is played in a turn-based manner, where each player character receives a specific number of action points per turn to move, attack, cure zombies, or use special actions.
+The Last of Us: Legacy is a single player survival game set in a zombie apocalyptic world.
+The game is conducted in a turn based manner, in which each player character receives a specific
+number of action points per turn, which they can use to move, attack or cure zombies, or use
+special actions.
+The player starts the game controlling only one hero, but can gain additional heroes by curing
+zombies. The objective of the game for the player is to survive as long as it takes in order to
+cure a sufficient number of zombies enough to build a community to survive the apocalypse.
 
 ## Characters
-
+Characters in the game are split into Heroes or Zombies
 ### Heroes
+Heroes are the types of characters that the player can control. There are several types of heroes
+available in the game, each one provides different assets for the player in order to win the game.
+Any character; Zombie or Hero, has an initial amount of health that decreases whenever they
+are attacked. If the character’s health ever reaches 0 they are killed and removed from the
+game.
+Considering that the aim of the game is to build a large enough community to survive the
+apocalypse thus the player must try to maintain and protect their heroes at all costs, as well as
+try to expand their available pool of heroes.
+Each hero type has a unique action they can add to the player’s team:
 
-Heroes are the playable characters controlled by the player. Each hero type provides unique advantages:
+- **Explorer**: Allows the player to be able to see the entirety of the map for 1 turn whenever
+a supply is used.
+- **Medic**: Can heal and restore health to other heroes or themselves, each process of healing
+uses 1 supply.
+- **Fighter**: : Can attack as many times in a turn without costing action points, for 1 turn
+whenever a supply is used.
 
-- **Explorer**: Reveals the entire map for one turn whenever a supply is used.
-- **Medic**: Can heal other heroes or themselves, consuming 1 supply per healing action.
-- **Fighter**: Can attack multiple times in a turn without consuming action points when a supply is used.
-
-Heroes have initial health that decreases when attacked. If their health reaches zero, they are removed from the game. The player must protect and expand their roster of heroes to build a community.
+Possible actions that can be done by a character:
+- Move
+- Attack a zombie
+- Cure a zombie
+- Use their class dependant unique action
 
 ### Zombies
 
-Zombies are adversaries in the game. They cannot be controlled but can be attacked or cured. Killing a zombie spawns another somewhere on the map. Curing a zombie replaces it with an additional hero for future turns.
+Zombies are the types of characters that threaten the player during the game. Zombies cannot
+be controlled, however they can be cured or attacked. Each time a zombie is killed another
+zombie will spawn somewhere on the map. In addition to extra zombies spawning every time
+the player ends a turn.
+Whenever a zombie is cured an extra hero will take its place and be available for the player to
+use in future turns.
+
 
 ## Collectibles
 
-Collectibles scattered across the map aid the player's survival:
+Collectibles are scattered objects across the map that can help the player survive and advance
+in the game. Each collectible is only usable once, and after that is discarded from the hero’s
+inventory and cannot be reused.
 
-- **Vaccines**: Essential for winning the game as they cure zombies and recruit new heroes.
-- **Supplies**: Enable heroes to use their unique actions.
 
-Each collectible can only be used once.
+- **Vaccines**: Vaccines are an integral and important part of the game. As the player can
+only win the game once all vaccines have been collected and used. Vaccines are also the
+only means through which players can cure zombies and recruit new heroes.
+- **Supplies**: Supplies are the other type of collectible available in the game. Supplies
+enable the carrying hero to use their special action
+
+
 
 ## Gameplay Flow
-
-The player starts on a 15x15 grid map with one hero and faces 10 initial zombies. Visibility is limited to adjacent cells near heroes. The player takes turns collecting vaccines, curing or killing zombies. The game ends when all vaccines are used or all heroes are defeated.
-
-Victory requires collecting and using all vaccines with at least 5 heroes alive.
+The player starts off in a 15x15 grid map with just one hero and 10 zombies. The player can
+only see the directly adjacent cells next to their pool of heroes. The player then keeps taking
+his turn trying to collect vaccines, and cure or kill zombies. The game ends when the player
+has collected and used all vaccines or when all heroes have been overwhelmed and defeated by
+the zombies.
+The player only wins if he has successfully collected and used all vaccines and has 5 or more
+heroes alive
