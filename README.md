@@ -69,3 +69,10 @@ has collected and used all vaccines or when all heroes have been overwhelmed and
 the zombies.
 The player only wins if he has successfully collected and used all vaccines and has 5 or more
 heroes alive
+
+## Gameplay Snapshots
+
+![Image](https://github.com/user-attachments/assets/d2f4d752-cadc-40b8-949b-1e98cd71f778)
+![Image](https://github.com/user-attachments/assets/6fd092d7-2a8f-4b0c-bdfd-3eccd55d0153)
+![Image](https://github.com/user-attachments/assets/a9105b29-00c1-47b2-8878-c741726c7610)
+
